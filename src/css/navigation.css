@@ -1,0 +1,135 @@
+
+.brand {
+  width: 150px;
+}
+
+.bg-primary {
+  background: transparent !important;
+  border-bottom: 1px solid #ac9b6a;
+  padding: 2em;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: EvanstonAlehouse, open sans;
+}
+
+@media (min-width: 769px) {
+	li.dropdown:hover > ul.dropdown-menu {
+	    display: block;    
+	    background: black;
+	    color: white;
+	    transition: .4s;
+	    width: 200px;
+	}
+}
+
+li.dropdown:hover > ul.dropdown-menu a {
+    color: white;
+}
+
+.dropdown-item {
+	font-family: EvanstonAlehouse, sans opens;
+}
+
+.dropdown-item:focus, .dropdown-item:hover { 
+	color: white;
+	background: #ac9b6a;
+	transition: .4s;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ac9b6a;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.navbar-brand.abs .brand {
+    z-index: 1;
+}
+
+.navbar-brand.abs a {
+	margin: auto;
+	max-width: 150px;
+}
+
+.find-store-btn {
+	border-style: double;
+	border-radius: 0;
+	border-width: 4px 4px 4px 4px;
+	border-color: #ac9b6a;
+	box-shadow: 0px 0px 0px 2px #ac9b6a;
+	margin-top: -4px;
+	margin-left: 5px;
+}
+
+.dropdown-toggle::after {
+	display: none;
+}
+
+
+
+@media (max-width: 768px) {
+	.mobile-only {
+		display: block;
+	}
+	.desktop-only {
+		display: none;
+	}
+	.brand {
+	    width: 52px;
+	}
+	.bg-primary {
+		padding: .5em;
+	}
+	.find-store-btn {
+		border-style: none;
+		border-radius: 0;
+		border-width: 0;
+		border-color: #ac9b6a;
+		box-shadow: none;
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.find-store-btn {
+		width: 100%;
+		text-align: left;
+	}
+	.find-store-btn:hover {
+		background: #ac9b6a;
+		color: white;
+	}
+
+	.navbar-brand.abs {
+	    z-index: 0;
+	    margin: auto;
+	    position: relative;
+		left: 29px;
+	}
+	.dropdown-toggle::after {
+	    display: -webkit-inline-box;
+	}
+	li.dropdown:hover > ul.dropdown-menu, li.dropdown > ul.dropdown-menu {
+	    background: black;
+	    color: white;
+	    transition: .4s;
+	    width: 100%;
+	}
+	.dropdown-menu a {
+		color: white;
+	}
+	.navbar-dark .navbar-nav .nav-link:hover {
+		background: #ac9b6a;
+		color: white;
+	}
+	.nav-item, .nav-link {
+		text-indent: 20px;
+	}
+	.dropdown-toggle::after {
+		text-indent: 0 !important;
+	}
+}

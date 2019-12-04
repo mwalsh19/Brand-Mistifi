@@ -1,0 +1,193 @@
+.hero-image {
+    width: 100%;
+    height: 600px;
+    background: black;
+}
+
+.text-overlay {
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
+    height: 200px;
+    position: relative;
+    top: 150px;
+}
+
+.cursive {
+    font-family: Snell-Roundhand;
+    color: #fff;
+    font-size: 36px;
+}
+
+.din {
+    font-family: DIN;
+    color: #fff;
+    font-size: 18px;
+}
+
+.alehouse {
+    font-family: EvanstonAlehouse, sans opens;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 80px;
+}
+
+@media(max-width: 767px) {
+    .text-overlay {
+        height: auto;
+        margin: 0 20px 0 20px;
+    }
+
+    .cursive {
+        font-size: 23px;
+    }
+
+    .din {
+        font-size: 18px;
+    }
+
+    .alehouse {
+        font-size: 40px;
+    }
+}
+
+.anchor-bar {
+    width: 100%;
+    background: #ac9b6a;
+    padding: 20px 0 10px 0;
+    min-height: 25px;
+    margin-bottom: 100px;
+}
+
+.anchor-bar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.anchor-bar ul li {
+    display: inline-block;
+}
+
+.anchor-bar ul a {
+    font-family: EvanstonAlehouse, sans opens;
+    color: #1d1d1d;
+    font-size:18px;
+}
+
+.anchor-bar ul span {
+    color: white;
+}
+
+.content {
+    width: 100%;
+    height: 1000px;
+    background: white;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.container-fluid {
+    margin-bottom: 100px;
+}
+
+.second-border {
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    border-color: #ac9b6a;
+    padding: 5px 0 5px 0;
+}
+
+.below-header {
+    margin-bottom: 80px;
+}
+
+.content-box {
+    padding: 2px 0 2px 0;
+    border-style: solid;
+    border-width: 6px 0 0 0;
+    border-color: #ac9b6a;
+}
+
+.content-box p ul {
+    padding-left: 15px;
+}
+
+.content-box p {
+    font-size: 18px;
+    color: #1d1d1d;
+    line-height: 28px;
+}
+
+.content-box button {
+    text-transform: uppercase;
+    color: #ac9b6a;
+    font-size: 16px;
+    margin-left: 0px;
+}
+
+.content-headings {
+    color: #ac9b6a;
+    text-align: center;
+    font-size: 28px;
+}
+
+.title {
+    color: #1d1d1d;
+    font-size: 42px;
+}
+
+#about-mistifi img {
+    max-width: 600px;
+}
+
+.back-to-top {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+}
+
+.back-to-top.fWohKN {
+    font-size: 25px;
+}
+
+.back-to-top i {
+    font-size: 25px;
+}
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+  .navbar-expand-md .navbar-nav {
+    position: relative;
+    top: 15px;
+  }
+}
+
+@media(max-width:1000px) {
+    .tablet-view-minimum {
+        display: none;
+    }
+    .tablet-break {
+        display: block !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .anchor-bar ul li {
+        display: block;
+        line-height: 36px;
+    }
+    .anchor-bar ul span {
+        display: none;
+    }
+    .anchor-bar ul a {
+        line-height: 36px;
+    }
+}
+

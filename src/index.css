@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'EvanstonAlehouse';
+    src: url('/fonts/Kimmy Design - Evanston Alehouse 1826 Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Snell-Roundhand';
+    src: url('/fonts/Snell Roundhand Script.ttf') format("truetype"), url('/fonts/SnellRoundhand-BoldScript.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('/fonts/DIN-Medium.ttf') format("truetype"), url('/fonts/DINOT-Medium.otf') format("opentype");
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.mobile-only {
+	display: none;
+}
+.desktop-only {
+	display: block;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
