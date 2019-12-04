@@ -1,6 +1,7 @@
 import React from 'react';
 import BackToTop from 'react-back-to-top-button';
-import Navigation from './components/layouts/navigation';
+import Navigation from './components/layouts/Navigation';
+import AnchorNav from './components/layouts/AnchorNav';
 import './css/App.css';
 
 function App() {
@@ -14,44 +15,8 @@ function App() {
           <h1 className="din">USE OF ALL LOGOS AND MATERIALS AVAILABLE ON THIS PORTAL ARE SUBJECT TO OUR BRAND GUIDELINES.</h1>
         </div>  
       </div>
-      <div className="anchor-bar">
 
-        <ul>
-          <li>
-            <a href="#about-mistifi">ABOUT MISTIFI</a> <span>|&nbsp;</span>
-          </li>
-          <li>
-            <a href="#logo">LOGO</a> <span>|&nbsp;</span>
-          </li>
-          <li>
-            <a href="#typeface-fonts">TYPEFACE/FONTS</a> <span>|&nbsp;</span>
-          </li>
-          <li>
-            <a href="#color-palette">COLOR PALETTE</a> <span>|&nbsp;</span>
-          </li>
-          <li>
-            <a href="#packaging">PACKAGING</a> <span>|&nbsp;</span>
-          </li>
-          <li>
-            <a href="#brand-imagery">BRAND IMAGERY</a> <span className="tablet-view-minimum">|&nbsp;</span>
-          </li>
-          <li className="tablet-break"></li>
-          <li>
-            <a href="#marketing-materials">MARKETING MATERIALS</a> <span>|&nbsp;</span>
-          </li>
-          <li>
-            <a href="#best-practices">BEST PRACTICES</a> <span>|&nbsp;</span>
-          </li>
-          <li>
-            <a href="#hi-phi">HI-PHI</a> <span>|&nbsp;</span>
-          </li>
-          <li>
-            <a href="#contact">CONTACT</a>
-          </li>
-          
-        </ul>
-
-      </div>
+      <AnchorNav />
 
       <div className="content">
 
@@ -96,7 +61,7 @@ function App() {
                   </p>  
                 </div>
                 <div className="col-7">
-                  <img src="/images/about/our-identity-mistifi.svg" alt="identity logo" />
+                  <img src="/images/sections/about/our-identity-mistifi.svg" alt="identity logo" />
                 </div>
               </div>
             </div>
@@ -127,22 +92,38 @@ function App() {
                   </p>
                   <div>
                     <p className="din">PLEASE CLICK THE BUTTON BELOW TO DOWNLOAD.</p>
-                    <a href="/images/logo/images-OUR-LOGO-FAMILY.zip">
-                      <button type="submit" className="btn find-store-btn nav-link">Download</button>
-                    </a>
+                    <div className="dropdown">
+                      <button className="btn find-store-btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Download
+                      </button>
+                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a className="dropdown-item" href="/images/sections/logo/images-OUR-LOGO-FAMILY.zip">California</a>
+                        <a className="dropdown-item" href="/images/sections/logo/images-OUR-LOGO-FAMILY.zip">Colorado</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="col-7">
                   <div className="row">
                     <div className="col">
-                      <img src="/images/logo/our-logo-family-gold-outline-mistifi.svg" alt="identity logo" />
+                      <p className="description border-image">COLOR LOGOS</p>
+                      <img src="/images/sections/logo/our-logo-family-gold-outline-mistifi.svg" alt="identity logo" />
+                      <br />
+                      <p className="description">Gold Outline</p>
                       <br /><br />
-                      <img src="/images/logo/our-logo-family-gold-crafted-mistifi.svg" alt="identity logo" />
+                      <img src="/images/sections/logo/our-logo-family-gold-crafted-mistifi.svg" alt="identity logo" />
+                      <br />
+                      <p className="description">Gold Crafted</p>
                     </div>
                     <div className="col">
-                      <img src="/images/logo/our-logo-family-solid-mistifi.svg" alt="identity logo" />
+                      <p className="description border-image">MONO LOGOS</p>
+                      <img src="/images/sections/logo/our-logo-family-solid-mistifi.svg" alt="identity logo" />
+                      <br />
+                      <p className="description">Solid</p>
                       <br /><br />
-                      <img src="/images/logo/our-logo-family-crafted-mistifi.svg" alt="identity logo" />
+                      <img src="/images/sections/logo/our-logo-family-crafted-mistifi.svg" alt="identity logo" />
+                      <br />
+                      <p className="description">Crafted</p>
                     </div>
                   </div>
                 </div>

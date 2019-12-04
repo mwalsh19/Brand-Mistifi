@@ -54,7 +54,7 @@
 .anchor-bar {
     width: 100%;
     background: #ac9b6a;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 1px 0;
     min-height: 25px;
     margin-bottom: 100px;
 }
@@ -117,6 +117,20 @@
     font-size: 18px;
     color: #1d1d1d;
     line-height: 28px;
+}
+
+.content-box .description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    color: #1d1d1d;
+    font-family: DIN;
+}
+
+.content-box .border-image {
+    border-style: solid;
+    border-top-width: 0;
+    border-image: url(/images/sections/logo/underline-gfx.svg) 10;
 }
 
 .content-box button {

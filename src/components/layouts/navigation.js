@@ -42,9 +42,9 @@ export default function(props) {
 	                  <li className="nav-item">
 	                      <a className="nav-link" href="https://mistifi.com/blog/" target="_blank" rel="noopener noreferrer">BLOG</a>
 	                  </li>
-	                  <li className="nav-item">
+	                  {/* <li className="nav-item">
 	                      <a className="nav-link" href="#exclusives">EXCLUSIVES</a>
-	                  </li>
+	                  </li> */}
 	                  <li className="nav-item">
 	                      <a className="nav-link" href="https://mistifi.com/contact-us/" target="_blank" rel="noopener noreferrer">CONTACT US</a>
 	                  </li>
