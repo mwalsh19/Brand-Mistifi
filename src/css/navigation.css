@@ -7,7 +7,6 @@
   background: transparent !important;
   border-bottom: 1px solid #ac9b6a;
   padding: 2em;
-  max-width: 1440px;
   margin: auto;
 }
 
@@ -15,7 +14,7 @@
 	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-family: EvanstonAlehouse, open sans;
+	font-family: 'Evanston Alehouse 1826 Medium', open sans;
 }
 
 @media (min-width: 769px) {
@@ -33,7 +32,7 @@ li.dropdown:hover > ul.dropdown-menu a {
 }
 
 .dropdown-item {
-	font-family: EvanstonAlehouse, sans opens;
+	font-family: 'Evanston Alehouse 1826 Medium', sans opens;
 }
 
 .dropdown-item:focus, .dropdown-item:hover { 
@@ -65,6 +64,8 @@ li.dropdown:hover > ul.dropdown-menu a {
 	box-shadow: 0px 0px 0px 2px #ac9b6a;
 	margin-top: -4px;
 	margin-left: 5px;
+	height: 47px;
+	width: 172px;
 }
 
 .dropdown-toggle::after {
@@ -86,7 +87,7 @@ li.dropdown:hover > ul.dropdown-menu a {
 	.bg-primary {
 		padding: .5em;
 	}
-	.find-store-btn {
+	.find-store-btn-menu {
 		border-style: none;
 		border-radius: 0;
 		border-width: 0;
@@ -94,12 +95,10 @@ li.dropdown:hover > ul.dropdown-menu a {
 		box-shadow: none;
 		margin-top: 0;
 		margin-left: 0;
-	}
-	.find-store-btn {
 		width: 100%;
 		text-align: left;
 	}
-	.find-store-btn:hover {
+	.find-store-btn-menu:hover {
 		background: #ac9b6a;
 		color: white;
 	}
@@ -119,7 +118,7 @@ li.dropdown:hover > ul.dropdown-menu a {
 	    transition: .4s;
 	    width: 100%;
 	}
-	.dropdown-menu a {
+	.dropdown-menu .links {
 		color: white;
 	}
 	.navbar-dark .navbar-nav .nav-link:hover {

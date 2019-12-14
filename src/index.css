@@ -1,16 +1,26 @@
 @font-face {
-    font-family: 'EvanstonAlehouse';
-    src: url('/fonts/Kimmy Design - Evanston Alehouse 1826 Medium.ttf') format("truetype");
+    font-family: 'Evanston Alehouse 1826 Medium';
+    src: url('/fonts/Evanston Alehouse 1826/Kimmy Design - Evanston Alehouse 1826 Medium.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: 'Snell-Roundhand';
-    src: url('/fonts/Snell Roundhand Script.ttf') format("truetype"), url('/fonts/SnellRoundhand-BoldScript.otf') format("opentype");
+    font-family: 'Snell Roundhand Black';
+    src: url('/fonts/Snell-Roundhand-Black/SnellRoundhand-BlackScript.otf') format("opentype");
 }
 
 @font-face {
-    font-family: 'DIN';
-    src: url('/fonts/DIN-Medium.ttf') format("truetype"), url('/fonts/DINOT-Medium.otf') format("opentype");
+    font-family: 'DINOT Medium';
+    src: url('/fonts/DIN/DINOT-Medium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'DINOT Regular';
+    src: url('/fonts/DIN/DINPro Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'ATSACKERS HEAVY GOTHIC';
+    src: url('/fonts/Atsackers/Monotype - Sackers Heavy Gothic.ttf') format("truetype");
 }
 
 a:hover {

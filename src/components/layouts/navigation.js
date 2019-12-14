@@ -19,10 +19,10 @@ export default function(props) {
 	                      BLENDS
 	                    </a>
 	                    <ul className="dropdown-menu">
-	                      <a className="dropdown-item mobile-only" href="https://mistifi.com/blends/" target="_blank" rel="noopener noreferrer">All BLENDS</a>
-	                      <a className="dropdown-item" href="https://mistifi.com/over-the-rainbow/" target="_blank" rel="noopener noreferrer">OVER THE RAINBOW</a>
-	                      <a className="dropdown-item" href="https://mistifi.com/houdini/" target="_blank" rel="noopener noreferrer">HOUDINI</a>
-	                      <a className="dropdown-item" href="https://mistifi.com/phantom/" target="_blank" rel="noopener noreferrer">PHANTOM</a>
+	                      <a className="dropdown-item links mobile-only" href="https://mistifi.com/blends/" target="_blank" rel="noopener noreferrer">All BLENDS</a>
+	                      <a className="dropdown-item links" href="https://mistifi.com/over-the-rainbow/" target="_blank" rel="noopener noreferrer">OVER THE RAINBOW</a>
+	                      <a className="dropdown-item links" href="https://mistifi.com/houdini/" target="_blank" rel="noopener noreferrer">HOUDINI</a>
+	                      <a className="dropdown-item links" href="https://mistifi.com/phantom/" target="_blank" rel="noopener noreferrer">PHANTOM</a>
 	                    </ul>
 	                  </li>
 	                  <li className="nav-item dropdown">
@@ -30,8 +30,8 @@ export default function(props) {
 	                      PHILOSOPHY
 	                    </a>
 	                    <ul className="dropdown-menu">
-	                      <a className="dropdown-item mobile-only" href="https://mistifi.com/philosophy" target="_blank" rel="noopener noreferrer">ABOUT US</a>
-	                      <a className="dropdown-item" href="https://mistifi.com/hi-phi/" target="_blank" rel="noopener noreferrer">HI-PHI</a>
+	                      <a className="dropdown-item links mobile-only" href="https://mistifi.com/philosophy" target="_blank" rel="noopener noreferrer">ABOUT US</a>
+	                      <a className="dropdown-item links" href="https://mistifi.com/hi-phi/" target="_blank" rel="noopener noreferrer">HI-PHI</a>
 	                    </ul>
 	                  </li>
 	                  <li className="nav-item">
@@ -49,7 +49,7 @@ export default function(props) {
 	                      <a className="nav-link" href="https://mistifi.com/contact-us/" target="_blank" rel="noopener noreferrer">CONTACT US</a>
 	                  </li>
 	                  <li className="nav-item">
-	                      <a href="https://mistifi.com/find-a-store/" target="_blank" rel="noopener noreferrer"><button type="submit" className="btn find-store-btn nav-link">FIND A STORE</button></a>
+	                      <a href="https://mistifi.com/find-a-store/" target="_blank" rel="noopener noreferrer"><button type="submit" className="btn find-store-btn-menu nav-link">FIND A STORE</button></a>
 	                  </li>
 	              </ul>
 	          </div>
